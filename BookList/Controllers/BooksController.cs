@@ -19,7 +19,7 @@ namespace BookList.Controllers
             return View(_db.Books.ToList());
         }
 
-        //Get : Book/Create
+        //Get:Book/Create
         public IActionResult Create()
         {
             return View();
